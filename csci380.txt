@@ -1,2 +1,43 @@
-sh -l yue_tsai -p 3505 24.186.142.6 -v
+ssh -l yue_tsai -p 3505 24.186.142.6 -v
 csci_380-01
+for  i in {1..29} virsh destory serverX (For loop on creating the server from 1-29)
+virsh start server29 ; virsh console server# (Start a server and console in)
+log in as root
+sudo virsh console server22
+
+scp -P 3505 yue_tsai@24.186.142.6:/tmp/conf_repo.docx ./
+
+
+
+/= file irigin
+/root = home dictrtory of root
+******************
+command in SHELL 
+
+Alias- Nickname
+External command = writing a program
+Internal command =
+
+ls= List
+pwd= present working director
+which = tells you where is your list
+time= time your execuation
+cd = change dir
+type = tell you wheather the command is a external or internal command
+$PATH = mandate where you can execute from with out writing down a full path
+echo = spit information out to standard output
+~ = to find your home directory
+cd ~ = brings your to home directory
+mkdir = make directory
+vi = note pad for Linux
+i = to insert
+chmod = change modification
+echo $ = give you the exit code. 0 = good , non zero = no good
+touch = to create a file
+a = in Vi is append
+x = in VI is to delete
+u = in VI is undo
+#x = delete x number of letter
+0 = in VI takes you to beginning of that line
+$ = end of that line
+ls / = show you every thing from root
